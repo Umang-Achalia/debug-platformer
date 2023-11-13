@@ -1,0 +1,8 @@
+﻿main.obj : error LNK2019: unresolved external symbol "public: __cdecl Game::Game(void)" (??0Game@@QEAA@XZ) referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol "public: __cdecl Game::~Game(void)" (??1Game@@QEAA@XZ) referenced in function "public: void * __cdecl Game::`scalar deleting destructor'(unsigned int)" (??_GGame@@QEAAPEAXI@Z)
+main.obj : error LNK2019: unresolved external symbol "public: bool __cdecl Game::init(char const *,int,int,int,int,int)" (?init@Game@@QEAA_NPEBDHHHHH@Z) referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Game::clean(void)" (?clean@Game@@QEAAXXZ) referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Game::handleEvent(void)" (?handleEvent@Game@@QEAAXXZ) referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Game::update(void)" (?update@Game@@QEAAXXZ) referenced in function SDL_main
+main.obj : error LNK2019: unresolved external symbol "public: void __cdecl Game::render(void)" (?render@Game@@QEAAXXZ) referenced in function SDL_main
+C:\Users\luvil\OneDrive\Documents\Projects\Refined_Platformer\x64\Debug\Refined_Platformer.exe : fatal error LNK1120: 7 unresolved externals
